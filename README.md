@@ -2,7 +2,8 @@
 
 ## Execution Instructions
 
-Download the train, validation and test dataset from ISIC 2017 archive - https://challenge.isic-archive.com/data/#2017
+Step 1 : Download the train, validation and test dataset from ISIC 2017 archive - https://challenge.isic-archive.com/data/#2017
+
 
 
 ## Repostory Structure
