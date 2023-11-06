@@ -1,4 +1,5 @@
 # Skin-cancer-lesion-classification-using-Vision-Transformer
+## Repostory Structure
 
 Final Code - is the main folder which contains all the folders associated with the project
 The final code contains 4 folders –
