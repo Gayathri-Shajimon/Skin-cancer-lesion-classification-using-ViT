@@ -1,7 +1,4 @@
 # Skin-cancer-lesion-classification-using-Vision-Transformer
-##Repsotory Structure
-
-This repository contains the code and documentation related to skin cancer lesion classification using vision transformers
 
 Final Code - is the main folder which contains all the folders associated with the project
 The final code contains 4 folders –
