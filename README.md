@@ -1,4 +1,10 @@
 # Skin-cancer-lesion-classification-using-Vision-Transformer
+
+## Execution Instructions
+
+Download the train, validation and test dataset from ISIC 2017 archive - https://challenge.isic-archive.com/data/#2017
+
+
 ## Repostory Structure
 
 Final Code - is the main folder which contains all the folders associated with the project
