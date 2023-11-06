@@ -4,6 +4,8 @@
 
 Step 1 : Download the train, validation and test dataset from ISIC 2017 archive - https://challenge.isic-archive.com/data/#2017
 
+## Using the augument_it.ipynb script
+
 Step 2a : The script reads ground truth information from CSV files using Pandas DataFrames within each of the downloaded data archives.
 
 Step 2b : The `resize_images_in_folder()` function resizes images in the train, test, and validation directories.
@@ -16,11 +18,38 @@ Step 2e : Images are copied to the corresponding task-specific directories.
 
 Step 2f:  Training and validation data are merged into a "train_merged" directory for cross-validation purposes.
 
-Step 3 : Train the model 
+Step 3 : Train the model using the corresponding data.
 
 Note: The script assumes that image files follow the ".jpg" or ".jpeg" format and are stored in the specified paths. Files with other formats will be skipped during the resizing and copying process.
 
 For data augmentation, the script generates and saves images to disk. Images generated for each task are six times their original size.
+
+
+Within this set of data folders, you'll find the following:
+
+### `train`
+
+The `train` folder contains the competition's training data. These images are crucial for training machine learning models.
+
+### `val`
+
+In the `val` folder, you'll discover the competition's validation data. These images play a pivotal role in fine-tuning models during the validation stages.
+
+### `test`
+
+The `test` folder houses the competition's testing data. These images are designed for evaluating model performance on previously unseen data.
+
+### `train_merged`
+
+The `train_merged` folder is a combined repository of both the training and validation data. This combination serves to facilitate cross-validation procedures.
+
+### `train_augmented`
+
+Within this folder, you'll find a fusion of the original images from the `train` folder and additional augmented images used for training purposes.
+
+### `train_merged_augmented`
+
+Similar to the `train_augmented` folder, `train_merged_augmented` contains augmented images combined with the original images from the `train_merged` folder.
 
 
 
